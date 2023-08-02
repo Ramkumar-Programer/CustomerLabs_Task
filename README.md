@@ -3,7 +3,7 @@
 In the project directory, you can run:
 
 ### `npm install`
-Installs necessary node modules files.
+Install necessary node modules files by above comment.
 
 ### `npm start`
 
