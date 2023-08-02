@@ -1,0 +1,140 @@
+.saveSegmentBody
+{
+    padding: 15px;
+    padding-right: 5px;
+
+}
+
+.namelabel
+{
+    font-weight: 450;
+    color: rgb(37, 35, 35);
+}
+
+.inputBox
+{
+    border: none;
+    background: none;
+    width: 90%;
+    height: 28px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border: 2px solid rgb(112, 109, 109);
+    padding-left: 10px;
+}
+
+.note
+{
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.traits
+{
+    position: absolute;
+    right: 25px;
+    display: flex;
+}
+
+.userTraits
+{
+    display: flex;
+}
+.round {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: gray;
+  }
+  
+.round.green {
+    background-color: green; /* Set the background color to green */
+  }
+
+.round.red {
+    background-color: red; /* Set the background color to green */
+}
+.userTraits .traitsLabel,
+.groupTraits .traitsLabel
+{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.groupTraits
+{
+    display: flex;
+}
+
+
+.segment
+{
+    margin-top: 75px;
+    height: 340px;
+    overflow-y: scroll;
+}
+
+.selectSchema
+{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.segmentFooter
+{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(228, 226, 223);
+    padding-top: 18px;
+    padding-left: 20px;
+    width: 94.5%;
+    height: 60px;
+}
+
+.segmentFooter .saveButton,
+.segmentFooter .cancelButton
+{
+    height: 35px;
+    margin-right: 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.segmentFooter .saveButton
+{
+    background-color: rgb(20, 205, 143);
+    color: white;
+    
+}
+
+.segmentFooter .cancelButton
+{
+    background-color: white;
+    color: black;
+}
+
+.round.select{
+    margin-right: 10px;
+    margin-top: 0px;
+    position: relative;
+    top: 14px;
+}
+
+.newSchemaButton
+{
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    text-decoration: underline;
+    color: rgb(24, 205, 145);
+    cursor: pointer;
+}
